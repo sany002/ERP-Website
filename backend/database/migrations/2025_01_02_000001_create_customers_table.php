@@ -1,0 +1,34 @@
+<?php
+
+use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
+
+return new class extends Migration
+{
+    public function up(): void
+    {
+        Schema::create('customers', function (Blueprint $table) {
+            $table->id();
+            $table->foreignId('company_id')->constrained()->cascadeOnDelete();
+            $table->string('uuid')->unique();
+            $table->enum('type', ['individual', 'business'])->default('individual');
+            $table->string('name');
+            $table->string('phone')->nullable();
+            $table->string('email')->nullable();
+            $table->string('address')->nullable();
+            // Links a customer to a portal login (Vehicle Owner / Customer role), optional
+            $table->foreignId('user_id')->nullable()->constrained()->nullOnDelete();
+            $table->boolean('is_active')->default(true);
+            $table->timestamps();
+            $table->softDeletes();
+
+            $table->index(['company_id', 'phone']);
+        });
+    }
+
+    public function down(): void
+    {
+        Schema::dropIfExists('customers');
+    }
+};

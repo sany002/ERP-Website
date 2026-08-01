@@ -1,0 +1,44 @@
+{
+  "app": {
+    "name": "Synex ERP",
+    "tagline": "Empowering Businesses Through Smart ERP Solutions",
+    "developedBy": "Developed by Synex Technologies"
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "vehicles": "Vehicles",
+    "jobs": "Job Cards",
+    "gateLog": "Gate Log",
+    "inventory": "Inventory",
+    "accounting": "Accounting",
+    "sales": "Sales",
+    "purchases": "Purchases",
+    "hr": "HR & Payroll",
+    "reports": "Reports",
+    "settings": "Settings"
+  },
+  "auth": {
+    "login": "Login",
+    "email": "Email",
+    "password": "Password",
+    "signIn": "Sign in",
+    "invalidCredentials": "These credentials do not match our records."
+  },
+  "dashboard": {
+    "welcome": "Welcome back",
+    "totalBranches": "Total Branches",
+    "totalUsers": "Total Users",
+    "activeJobs": "Active Jobs",
+    "revenueToday": "Revenue Today"
+  },
+  "common": {
+    "search": "Search",
+    "save": "Save",
+    "cancel": "Cancel",
+    "loading": "Loading...",
+    "noData": "No data available",
+    "darkMode": "Dark Mode",
+    "lightMode": "Light Mode",
+    "language": "Language"
+  }
+}

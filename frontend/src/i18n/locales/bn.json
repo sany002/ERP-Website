@@ -1,0 +1,44 @@
+{
+  "app": {
+    "name": "সাইনেক্স ইআরপি",
+    "tagline": "স্মার্ট ইআরপি সমাধানের মাধ্যমে ব্যবসাকে শক্তিশালী করা",
+    "developedBy": "সাইনেক্স টেকনোলজিস দ্বারা তৈরি"
+  },
+  "nav": {
+    "dashboard": "ড্যাশবোর্ড",
+    "vehicles": "যানবাহন",
+    "jobs": "জব কার্ড",
+    "gateLog": "গেট লগ",
+    "inventory": "ইনভেন্টরি",
+    "accounting": "হিসাবরক্ষণ",
+    "sales": "বিক্রয়",
+    "purchases": "ক্রয়",
+    "hr": "এইচআর ও পেরোল",
+    "reports": "রিপোর্ট",
+    "settings": "সেটিংস"
+  },
+  "auth": {
+    "login": "লগইন",
+    "email": "ইমেইল",
+    "password": "পাসওয়ার্ড",
+    "signIn": "সাইন ইন করুন",
+    "invalidCredentials": "এই তথ্যের সাথে কোনো অ্যাকাউন্ট মেলেনি।"
+  },
+  "dashboard": {
+    "welcome": "ফিরে আসার জন্য স্বাগতম",
+    "totalBranches": "মোট শাখা",
+    "totalUsers": "মোট ব্যবহারকারী",
+    "activeJobs": "চলমান কাজ",
+    "revenueToday": "আজকের আয়"
+  },
+  "common": {
+    "search": "খুঁজুন",
+    "save": "সংরক্ষণ করুন",
+    "cancel": "বাতিল",
+    "loading": "লোড হচ্ছে...",
+    "noData": "কোনো তথ্য নেই",
+    "darkMode": "ডার্ক মোড",
+    "lightMode": "লাইট মোড",
+    "language": "ভাষা"
+  }
+}
